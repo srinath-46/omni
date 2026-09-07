@@ -1,0 +1,22 @@
+{
+  "name": "omnisight-server",
+  "version": "1.0.0",
+  "description": "OmniSight Backend — Express + Socket.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "socket.io": "^4.8.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
